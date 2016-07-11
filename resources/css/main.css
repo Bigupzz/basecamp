@@ -21,9 +21,23 @@ header h1{
 	margin:15px;
 }
 
+/******************************Date STAMP*/
+
 .date {
 	text-align: center;
 }
+
+p.month {
+	font-family: 'Shrikhand', cursive;
+	font-size: 30px;
+}
+
+p.day {
+	font-family: 'Shrikhand', cursive;
+	font-size: 20px;
+}
+
+/******************************DATE STAMP */
 
 .content-box {
 	width: 100%;
