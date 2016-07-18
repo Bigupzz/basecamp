@@ -1,4 +1,3 @@
-@media (max-width: 767px) {
 
 
 * {    /*reset margins and paddings*/
@@ -7,60 +6,107 @@ padding: 0;
 }
 
 
+@media (max-width: 767px) {
 
-header {
-	border-bottom: 1px solid black;
-	padding: 10px 0px 10px 0px;
-	background-color: black;
+	header {
+		border-bottom: 1px solid black;
+		padding: 10px 0px 10px 0px;
+		background-color: black;
 
-}
+	}
 
-header h1{
-	text-align: center;
-	font-family: 'Passero One', cursive;
-	font-size: 50px;
-	color: white;
-}
+	header h1{
+		text-align: center;
+		font-family: 'Passero One', cursive;
+		font-size: 50px;
+		color: white;
+	}
 
-.wrapper {
-	margin:15px;
-}
+	.wrapper {
+		margin:15px;
+	}
 
-/******************************Date STAMP*/
+	/******************************Date STAMP*/
 
-.date {
-	text-align: center;
-}
+	.date {
+		text-align: center;
+	}
 
-p.month {
-	font-family: 'Shrikhand', cursive;
-	font-size: 30px;
-}
+	p.month {
+		font-family: 'Shrikhand', cursive;
+		font-size: 30px;
+	}
 
-p.day {
-	font-family: 'Shrikhand', cursive;
-	font-size: 20px;
-}
+	p.day {
+		font-family: 'Shrikhand', cursive;
+		font-size: 20px;
+	}
 
-/******************************DATE STAMP */
+	/******************************DATE STAMP */
 
-.content-box {
-	width: 100%;
-	height: 100%;
-	border: 1px solid black;
-	background-color: #efefef;
-	padding:2px;
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
+	.content-box {
+		width: 100%;
+		height: 100%;
+		border: 1px solid black;
+		background-color: #efefef;
+		padding:2px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
 
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  
+  header {
+		border-bottom: 1px solid black;
+		padding: 10px 0px 10px 0px;
+		background-color: black;
 
+	}
 
+	header h1{
+		text-align: left;
+		font-family: 'Passero One', cursive;
+		font-size: 50px;
+		color: white;
+		padding-left: 20px;
+	}
 
+	.wrapper {
+			margin:15px;
+		}
+
+		/******************************Date STAMP*/
+
+		.date {
+			text-align: center;
+		}
+
+		p.month {
+			font-family: 'Shrikhand', cursive;
+			font-size: 30px;
+		}
+
+		p.day {
+			font-family: 'Shrikhand', cursive;
+			font-size: 20px;
+		}
+
+		/******************************DATE STAMP */
+
+		.content-box {
+			width: 100%;
+			height: 100%;
+			border: 1px solid black;
+			background-color: #efefef;
+			padding:2px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+	}
 
 }
 
