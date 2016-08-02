@@ -6,6 +6,10 @@ padding: 0;
 }
 
 
+body {
+	width: 100%;
+}
+
 @media (max-width: 767px) {
 
 	header {
@@ -23,6 +27,10 @@ padding: 0;
 		font-family: 'Passero One', cursive;
 		font-size: 50px;
 		color: white;
+	}
+
+	ul.navbar {
+		display:none;
 	}
 
 	.wrapper {
@@ -83,6 +91,10 @@ padding: 0;
 		padding-left: 20px;
 	}
 
+	ul.navbar {
+		display:none;
+	}
+
 	.wrapper {
 			margin:15px;
 		}
@@ -120,9 +132,135 @@ padding: 0;
 
 	}
 
-}
+
 
 
 @media (min-width: 1025px) {
+
+header {
+		width: 100%;
+		border-bottom: 1px solid black;
+		padding: 10px 0px 10px 0px;
+		background-color: black;
+		-webkit-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		-moz-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+
+	}
+
+	.hwrap {
+		width: 80%;
+		margin: 0 auto 0 auto;
+		display: flex;
+		
+	}
+
+	header h1{
+		text-align: left;
+		font-family: 'Passero One', cursive;
+		font-size: 50px;
+		color: white;
+		width:30%;
+		float: left;
+	}
+
+	ul.navbar {
+		list-style-type: none;
+		margin: auto 0 auto 0;
+		padding: 0;
+		overflow:hidden;
+		background-color:  none;
+		width: 70%;
+		float: right;
+
+	}
+
+	li {
+		float: right;
+		margin-left: 20px;
+
+	}
+
+	li a {
+		
+		
+		font-size: 20px;
+		color: white;
+		text-decoration: none;
+		font-family: 'Passero One', cursive;
+		
+
+	}
+
+	
+
+	.wrapper {
+			width: 80%;
+			margin: 0 auto 0 auto;
+		}
+
+		/******************************Date STAMP*/
+
+		.date {
+			text-align: center;
+			margin-top: 20px;
+			width: 100%;
+		}
+
+		p.month {
+			font-family: 'Shrikhand', cursive;
+			font-size: 30px;
+		}
+
+		p.day {
+			font-family: 'Shrikhand', cursive;
+			font-size: 20px;
+		}
+
+		/******************************DATE STAMP */
+
+		.content-box {
+			
+			width: 100%;
+			height: 500px;
+			border: 1px solid black;
+			background-color: #efefef;
+			padding:2px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			-webkit-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			-moz-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			box-sizing: border-box;
+		}
+
+		.content-wrap {
+			width: 60%;
+			float:left;
+		}
+
+
+
+		.sidebar {
+			width: 35%;
+			height: 1730px;
+			margin-top: 114px;
+			margin-bottom: 10px;
+			border: 1px solid black;
+			background-color: #efefef;
+			float: right;
+			-webkit-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			-moz-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			float: right;
+
+		}
+
+		.clear {
+			clear: both;
+		}
+
+
+	
 
 }
