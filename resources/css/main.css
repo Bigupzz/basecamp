@@ -68,6 +68,39 @@ body {
 		box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
 	}
 
+
+	footer {
+		width: 100%;
+		background-color: black;
+		height:300px;
+	}
+
+	.footwrap {
+		width:50%;
+		margin: 0 auto 0 auto;
+		padding: 20px;
+	}
+
+	footer ul {
+		list-style-type: none;
+		background-color: none;
+		text-align: center;
+	}
+
+	footer li {
+		margin-top: 20px;
+		border: 1px solid white;
+
+	}
+
+	footer a {
+		font-family:  'Passero One', cursive;
+		color: white;
+		font-size: 25px;
+		text-decoration: none;
+
+	}
+
 }
 
 
