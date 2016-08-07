@@ -76,6 +76,8 @@ body {
 
 	.content-box p {
 		padding: 10px;
+		font-family: Rokkitt;
+		font-size: 1.2em;
 	}
 
 
@@ -207,7 +209,11 @@ body {
 			width: 100%;
 		}
 
-	
+		.content-box p {
+			padding: 10px;
+			font-family: Rokkitt;
+			font-size: 1.2em;
+		}
 
 	footer ul {
 		display: none;
@@ -321,6 +327,12 @@ header {
 			margin-top: 20px;
 			padding:2px;
 			width: 100%;
+		}
+
+		.content-box p {
+			padding: 10px;
+			font-family: Rokkitt;
+			font-size: 1.2em;
 		}
 
 		.content-wrap {
