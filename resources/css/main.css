@@ -17,25 +17,25 @@ body {
 	}
 
 	header {
-		width: 100%;
 	
-		border-bottom: 1px solid black;
-		padding: 10px 0px 10px 0px;
-		background-color: black;
-		-webkit-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
 		-moz-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		-webkit-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		background-color: black;
+		border-bottom: 1px solid black;
 		box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		padding: 10px 0px 10px 0px;
+		width: 100%;
 
 	}
 
 	header h1{
-		text-align: center;
+		color: white;
 		font-family: 'Passero One', cursive;
 		font-size: 50px;
-		color: white;
+		text-align: center;
 	}
 
-	ul.navbar {
+	header ul {
 		display:none;
 	}
 
@@ -62,47 +62,52 @@ body {
 	/******************************DATE STAMP */
 
 	.content-box {
-		width: 100%;
-		height: 100%;
-		border: 1px solid black;
-		background-color: #efefef;
-		padding:2px;
-		margin-top: 20px;
-		margin-bottom: 10px;
-		-webkit-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
 		-moz-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+		-webkit-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+		background-color: #efefef;
+		border: 1px solid black;
 		box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+		height: 100%;
+		margin-bottom: 10px;
+		margin-top: 20px;
+		padding:2px;
+		width: 100%;
+	}
+
+	.content-box p {
+		padding: 2px;
 	}
 
 
 	footer {
-		width: 100%;
 		background-color: black;
 		height:300px;
+		width: 100%;
 	}
 
 	.footwrap {
-		width:50%;
 		margin: 0 auto 0 auto;
 		padding: 20px;
+		width:50%;
 	}
 
 	footer ul {
-		list-style-type: none;
 		background-color: none;
+		list-style-type: none;
 		text-align: center;
 	}
 
-	footer li {
-		margin-top: 20px;
+	footer ul li {
 		border: 1px solid white;
+		margin-top: 20px;
 
 	}
 
-	footer a {
-		font-family:  'Passero One', cursive;
+	footer ul li a {
 		color: white;
-		font-size: 25px;
+		display: block;
+		font-family:  'Passero One', cursive;
+		font-size: 1.5em;
 		text-decoration: none;
 
 	}
@@ -117,25 +122,54 @@ body {
 	}
   
   header {
-		border-bottom: 1px solid black;
-		padding: 10px 0px 10px 0px;
-		background-color: black;
-		-webkit-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
 		-moz-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		-webkit-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		background-color: black;
+		border-bottom: 1px solid black;
 		box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		padding: 10px 0px 10px 0px;
 
 	}
 
 	header h1{
-		text-align: left;
+		color: white;
 		font-family: 'Passero One', cursive;
 		font-size: 50px;
-		color: white;
 		padding-left: 20px;
+		text-align: left;
+		width: 30%;
+		
 	}
 
-	ul.navbar {
-		display:none;
+	header ul {
+		list-style-type: none;
+		margin: auto 0 auto 0;
+		text-align: right;
+		width: 60%;
+
+	}
+
+	header ul li {
+
+		display: inline;
+			
+	}
+
+	header ul li a {
+		color: white;
+		font-family:'Passero One', cursive;
+		font-size: 1.5em;
+		padding-right: 10px;
+		text-decoration: none;
+
+		
+	}
+
+	.hwrap {
+		display: flex;
+		margin: 0 auto 0 auto;
+		width: 100%;
+		
 	}
 
 	.wrapper {
@@ -161,89 +195,88 @@ body {
 		/******************************DATE STAMP */
 
 		.content-box {
-			width: 100%;
-			height: 100%;
-			border: 1px solid black;
-			background-color: #efefef;
-			padding:2px;
-			margin-top: 20px;
-			margin-bottom: 10px;
-			-webkit-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
 			-moz-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			-webkit-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			background-color: #efefef;
+			border: 1px solid black;
 			box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			height: 100%;
+			margin-bottom: 10px;
+			margin-top: 20px;
+			padding:2px;
+			width: 100%;
 		}
 
-	}
+	
 
+	footer ul {
+		display: none;
+	} 
 
+}
 
 
 @media (min-width: 1025px) {
 
 .invheader {
-	width: 100%;
-	visibility: hidden;
-	border-bottom: 1px solid black;
-	padding: 10px 0px 10px 0px;
-	background-color: black;
-	-webkit-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
 	-moz-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+	-webkit-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+	background-color: black;
+	border-bottom: 1px solid black;
 	box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+	padding: 10px 0px 10px 0px;
+	visibility: hidden;
+	width: 100%;
 }
 
 
 header {
+		-moz-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		-webkit-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		background-color: black;
+		border-bottom: 1px solid black;
+		box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
+		padding: 10px 0px 10px 0px;
 		position: fixed;
 		width: 100%;
-		border-bottom: 1px solid black;
-		padding: 10px 0px 10px 0px;
-		background-color: black;
-		-webkit-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
-		-moz-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
-		box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
 
 	}
 
 	.hwrap {
-		width: 80%;
-		margin: 0 auto 0 auto;
 		display: flex;
+		margin: 0 auto 0 auto;
+		width: 80%;
 		
 	}
 
 	header h1 , .invheader h1 {
-		text-align: left;
+		color: white;
 		font-family: 'Passero One', cursive;
 		font-size: 50px;
-		color: white;
+		text-align: left;
 		width:30%;
-		float: left;
+		
 	}
 
-	ul.navbar , .invheader ul {
-		list-style-type: none;
+	header ul , .invheader ul {
 		margin: auto 0 auto 0;
-		padding: 0;
-		overflow:hidden;
-		background-color:  none;
+		text-align: right;
 		width: 70%;
-		float: right;
 
 	}
 
-	.navbar li , .invheader li {
-		float: right;
-		margin-left: 20px;
+	header ul li , .invheader ul li {
+		display: inline;
 
 	}
 
-	.navbar li a , .invheader li a {
-		
-		
-		font-size: 20px;
+	header ul li a , .invheader ul li a {
 		color: white;
+		font-family:'Passero One', cursive;
+		font-size: 1.5em;
+		padding-right: 10px;
 		text-decoration: none;
-		font-family: 'Passero One', cursive;
+		
 		
 
 	}
@@ -251,15 +284,15 @@ header {
 	
 
 	.wrapper {
-			width: 80%;
 			margin: 0 auto 0 auto;
+			width: 80%;
 		}
 
 		/******************************Date STAMP*/
 
 		.date {
-			text-align: center;
 			margin-top: 20px;
+			text-align: center;
 			width: 100%;
 		}
 
@@ -277,17 +310,17 @@ header {
 
 		.content-box {
 			
-			width: 100%;
-			height: 500px;
-			border: 1px solid black;
-			background-color: #efefef;
-			padding:2px;
-			margin-top: 20px;
-			margin-bottom: 10px;
-			-webkit-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
 			-moz-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			-webkit-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			background-color: #efefef;
+			border: 1px solid black;
 			box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
 			box-sizing: border-box;
+			height: 500px;
+			margin-bottom: 10px;
+			margin-top: 20px;
+			padding:2px;
+			width: 100%;
 		}
 
 		.content-wrap {
@@ -298,17 +331,17 @@ header {
 
 
 		.sidebar {
-			width: 35%;
-			height: 1730px;
-			margin-top: 114px;
-			margin-bottom: 10px;
-			border: 1px solid black;
-			background-color: #efefef;
-			float: right;
-			-webkit-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
 			-moz-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			-webkit-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
+			background-color: #efefef;
+			border: 1px solid black;
 			box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
 			float: right;
+			float: right;
+			height: 1730px;
+			margin-bottom: 10px;
+			margin-top: 114px;
+			width: 35%;
 
 		}
 
@@ -316,7 +349,9 @@ header {
 			clear: both;
 		}
 
-
+		footer {
+			display: none;
+		}
 	
 
 }
