@@ -129,6 +129,18 @@ body {
 
 	}
 
+	.ftbox {
+			display: block;
+			margin: 0 auto 0 auto;
+			
+		}
+
+		.ftbox h1 , h2 , h3 {
+			color:white;
+			text-align: center;
+			font-family:'Passero One', cursive;
+		}
+
 }
 
 
