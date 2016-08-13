@@ -10,6 +10,15 @@ body {
 	width: 100%;
 }
 
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
 @media (max-width: 767px) {
 
 	.invheader {
@@ -383,7 +392,7 @@ header {
 		}
 
 		footer {
-			display: none;
+			
 		}
 	
 
