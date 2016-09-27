@@ -19,7 +19,7 @@ body {
      height: 0;
      }
 
-@media (max-width: 767px) {
+
 
 	.invheader {
 		display: none;
@@ -141,10 +141,105 @@ body {
 			font-family:'Passero One', cursive;
 		}
 
+
+
+/************mobile to tablet****************/
+
+@media only screen and (min-width: 768px) {
+
+.hwrap {
+		display: flex;
+		width: 100%;
+
+	}
+
+  header h1 {
+   margin: auto auto auto 40px;
+
+
+  }
+
+  header ul {
+
+  	display: block;
+  	list-style-type: none;
+  	margin: auto 40px auto auto;
+	
+		
+  }
+
+  header ul li {
+  	display: inline;
+  }
+
+  header ul li a {
+		color: white;
+		font-family:'Passero One', cursive;
+		font-size: 1.5em;
+		padding-right: 10px;
+		text-decoration: none;
+   }
+
+   
+
+	
+
+
+	.ftbox {
+		display: inline-block;
+		width: 60%;
+	}
+
+	footer ul {
+		display: inline-block;
+		text-align: center;
+		width: 30%;
+	}
+
+	.footwrap {
+		width: 80%;
+	}
+
+	.ftbox h1 , h2 , h3 {
+			padding-left: 50px;
+			
+		}
+
+
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+/***********************tablet to mobile****************/
+
+@media only screen and (min-width: 1000px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+@media only screen and (min-width: 768px) {
 
 	.invheader {
 		display: none;
@@ -175,6 +270,7 @@ body {
 		margin: auto 0 auto 0;
 		text-align: right;
 		width: 60%;
+		display: block;
 
 	}
 
@@ -205,7 +301,7 @@ body {
 			margin:15px;
 		}
 
-		/******************************Date STAMP*/
+		
 
 		.date {
 			text-align: center;
@@ -221,7 +317,7 @@ body {
 			font-size: 20px;
 		}
 
-		/******************************DATE STAMP */
+		
 
 		.content-box {
 			-moz-box-shadow: 0px 0px 28px 1px rgba(105,103,105,0.73);
@@ -289,10 +385,10 @@ body {
 			font-family:'Passero One', cursive;
 		}
 
-}
 
 
-@media (min-width: 1025px) {
+
+@media only screen and (min-width: 1000px) {
 
 .invheader {
 	-moz-box-shadow: 0px 15px 23px -12px rgba(105,103,105,1);
@@ -364,7 +460,7 @@ header {
 			width: 80%;
 		}
 
-		/******************************Date STAMP*/
+		
 
 		.date {
 			margin-top: 20px;
@@ -382,7 +478,7 @@ header {
 			font-size: 20px;
 		}
 
-		/******************************DATE STAMP */
+		
 
 		.content-box {
 			
@@ -433,6 +529,7 @@ header {
 			margin-bottom: 10px;
 			margin-top: 114px;
 			width: 35%;
+			
 
 		}
 
@@ -485,3 +582,5 @@ header {
 	
 
 }
+
+*/
